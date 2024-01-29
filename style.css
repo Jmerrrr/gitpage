@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana;
+    text-align: left;
+}
+
+#mybutton {
+    font-size: .8em;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 11%, 93%);
+}
+
+
+ button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: hsl(238, 66%, 72%);
+    color: white;
+}
+
+button:active {
+    background-color: rgb(196, 166, 230);
+}
+
+#container {
+    text-align: center;
+}
+
+#diceImages img {
+   width: 150px;
+   border-radius: 20px;
+}
+
+#diceImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 1em;
+   
+}
+
+
+
+
